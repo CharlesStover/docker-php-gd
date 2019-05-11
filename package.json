@@ -1,0 +1,12 @@
+{
+  "name": "docker-php-gd",
+  "version": "1.0.0",
+  "author": "Charles Stover <docker@charlesstover.com>",
+  "description": "A PHP/Apache Docker image configured to support the GD image library.",
+  "license": "MIT",
+  "private": true,
+  "repository": "https://github.com/CharlesStover/docker-php-gd.git",
+  "scripts": {
+    "build": "docker build --file Dockerfile --tag charlesstover/docker-php-gd ."
+  }
+}
