@@ -7,6 +7,7 @@
   "private": true,
   "repository": "https://github.com/CharlesStover/docker-php-gd.git",
   "scripts": {
-    "build": "docker build --file Dockerfile --tag charlesstover/docker-php-gd ."
+    "build": "docker build --file Dockerfile --tag charlesstover/docker-php-gd .",
+    "rmi": "docker rmi charlesstover/docker-php-gd"
   }
 }
