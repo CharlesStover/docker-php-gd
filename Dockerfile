@@ -1,4 +1,4 @@
-FROM php:7.4.1-apache
+FROM php:7.4.2-apache
 LABEL Author "Charles Stover <docker@charlesstover.com>"
 
 # Given (Dependencies)
